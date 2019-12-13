@@ -1,7 +1,11 @@
 import React from 'react';
 import './App.css';
+import Experience from './Experience.jsx';
+import LogoBanner from './LogoBanner.jsx';
+import PeerReviews from './PeerReviews.jsx';
+import Portfolio from './Portfolio.jsx';
+import TechStack from './TechStack.jsx';
 import Jumbotron from 'react-bootstrap/Jumbotron';
-import Container from 'react-bootstrap/Container';
 
 function App() {
   return (
@@ -16,46 +20,11 @@ function App() {
       <Jumbotron fluid className="background-rom-cutout bg-transparent"></Jumbotron>
       <Jumbotron fluid className="rom-cutout-upside bg-transparent"></Jumbotron>
       <Jumbotron fluid className="test bg-transparent"></Jumbotron>
-      <Jumbotron fluid className="logo-banner bg-transparent">
-        <Container fluid className="">
-          <h1>LOGO BANNER</h1>
-          <h1>LOGO BANNER</h1>
-          <h1>LOGO BANNER</h1>
-          <h1>LOGO BANNER</h1>
-        </Container>
-      </Jumbotron>
-      <Jumbotron fluid className="tech-stack bg-transparent">
-        <Container fluid className="">
-          <h1>TECH STACK</h1>
-          <h1>TECH STACK</h1>
-          <h1>TECH STACK</h1>
-          <h1>TECH STACK</h1>
-        </Container>
-      </Jumbotron>
-      <Jumbotron fluid className="portfolio bg-transparent">
-        <Container fluid className="">
-          <h1>PORTFOLIO</h1>
-          <h1>PORTFOLIO</h1>
-          <h1>PORTFOLIO</h1>
-          <h1>PORTFOLIO</h1>
-        </Container>
-      </Jumbotron>
-      <Jumbotron fluid className="bg-transparent">
-        <Container fluid className="peer-reviews">
-          <h1>PEER REVIEWS</h1>
-          <h1>PEER REVIEWS</h1>
-          <h1>PEER REVIEWS</h1>
-          <h1>PEER REVIEWS</h1>
-        </Container>
-      </Jumbotron>
-      <Jumbotron fluid className="bg-transparent">
-        <Container fluid className="experience">
-          <h1>EXPERIENCE</h1>
-          <h1>EXPERIENCE</h1>
-          <h1>EXPERIENCE</h1>
-          <h1>EXPERIENCE</h1>
-        </Container>
-      </Jumbotron>
+      <LogoBanner/>
+      <TechStack/>
+      <Portfolio/>
+      <PeerReviews/>
+      <Experience/>
     </div>
   );
 }

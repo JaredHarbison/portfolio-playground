@@ -35,7 +35,7 @@
 .logo-banner {
   position: relative; z-index:1750; 
   min-height: 100vh; margin: 0; top: 50%; left: 50%;
-  transform: translate(-50%, -50%);}
+  transform: translate(-50%, -70%);}
 .tech-stack {
   position: relative; z-index: 750; 
   min-height: 100vh; margin: 0; top: 50%; left: 50%;
