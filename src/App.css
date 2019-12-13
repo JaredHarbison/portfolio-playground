@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App {text-align: center;}
+/*////////////////////////////////////////////////////////////////////
+////////// fixed and styled Royal Ontario Museum layers //////////////
+////////////////////////////////////////////////////////////////////*/
+.background-rom-and-moon {
+  background-image: url(./rom-and-moon.png);
+  background-attachment: fixed;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+	background-size: cover; 
+  height: 100%; width: 100%; 
+  position: fixed; z-index: -500;}
+.background-rom-cutout {
+	background-image: url(./rom-cutout-downside.png);
+	background-attachment: fixed;
+	background-color: transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	height: 100%; width: 100%;
+  position: fixed; z-index: 1000;}
+.rom-cutout-upside {
+	background-image: url(./rom-cutout-upside.png);
+  background-attachment: absolute;
+  background-color: transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: cover; 
+  height: 100%; width: 100%; opacity:.75;
+  position: absolute; z-index: 500;}
+/*////////////////////////////////////////////////////////////////////
+////////// Additional Jumbotron Styling //////////////////////////////
+////////////////////////////////////////////////////////////////////*/
+.logo-banner {
+  position: relative; z-index:1750; 
+  min-height: 100vh; margin: 0; top: 50%; left: 50%;
+  transform: translate(-50%, -50%);}
+.tech-stack {
+  position: relative; z-index: 750; 
+  min-height: 100vh; margin: 0; top: 50%; left: 50%;
+  transform: translate(-50%, -50%);}
+.portfolio {
+  position: relative; z-index: 1250; 
+  min-height: 100vh; margin: 0; top: 50%; left: 50%;
+  transform: translate(-50%, -50%);}
+.peer-reviews {
+  position: relative; z-index:750; 
+  min-height: 100vh; margin: 0; top: 50%; left: 50%;
+  transform: translate(-50%, -50%);}
+.experience {
+  position: relative; z-index:1250; 
+  min-height: 100vh; margin: 0; top: 50%; left: 50%;
+  transform: translate(-50%, -50%);}
+.test {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
