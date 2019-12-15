@@ -6,9 +6,8 @@ import Container from 'react-bootstrap/Container';
 function LogoBanner() {
   return (
     <div className="LogoBanner">
-      <Jumbotron fluid className="logo-banner bg-transparent">
-        <Container fluid className="">
-          <section id="logo">
+      <Jumbotron fluid className="bg-transparent">
+        <Container fluid className="logo">
             <svg viewBox="0 0 793 163" fill="none" xmlns="http://www.w3.org/2000/svg">
               <mask id="path-1-outside-1" maskUnits="userSpaceOnUse" x="0.90625" y="0.8125" fill="black">
                 <rect fill="white" x="0.90625" y="0.8125" width="792" height="162"/>
@@ -72,7 +71,6 @@ function LogoBanner() {
               <path d="M620.5 147.625C615.542 147.625 611.5 146.104 608.375 143.062C605.271 140.021 603.719 135.969 603.719 130.906V130.031C603.719 126.635 604.375 123.604 605.688 120.938C607 118.25 608.854 116.188 611.25 114.75C613.667 113.292 616.417 112.562 619.5 112.562C624.125 112.562 627.76 114.021 630.406 116.938C633.073 119.854 634.406 123.99 634.406 129.344V133.031H612.875C613.167 135.24 614.042 137.01 615.5 138.344C616.979 139.677 618.844 140.344 621.094 140.344C624.573 140.344 627.292 139.083 629.25 136.562L633.688 141.531C632.333 143.448 630.5 144.948 628.188 146.031C625.875 147.094 623.312 147.625 620.5 147.625ZM619.469 119.875C617.677 119.875 616.219 120.479 615.094 121.688C613.99 122.896 613.281 124.625 612.969 126.875H625.531V126.156C625.49 124.156 624.948 122.615 623.906 121.531C622.865 120.427 621.385 119.875 619.469 119.875Z" stroke="white" stroke-width="4" mask="url(#path-1-outside-1)"/>
               <path d="M658.562 121.656C657.333 121.49 656.25 121.406 655.312 121.406C651.896 121.406 649.656 122.562 648.594 124.875V147H639.562V113.188H648.094L648.344 117.219C650.156 114.115 652.667 112.562 655.875 112.562C656.875 112.562 657.812 112.698 658.688 112.969L658.562 121.656Z" stroke="white" stroke-width="4" mask="url(#path-1-outside-1)"/>
             </svg>      
-          </section>
         </Container>
       </Jumbotron>
     </div>
