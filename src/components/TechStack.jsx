@@ -9,7 +9,7 @@ function TechStack() {
       <Jumbotron className="bg-transparent">
         <Container className="tech-stack">
             <h1>Tech Stack</h1> 
-            <h1 class="mt-5">
+            <h1 class="mt-4">
               <i class="zoom devicon-bootstrap-plain-wordmark"></i>
               <i class="devicon-css3-plain-wordmark"></i>
               <i class="devicon-django-plain-wordmark"></i>

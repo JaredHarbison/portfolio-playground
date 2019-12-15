@@ -398,6 +398,7 @@
   hyphens: auto;}
 .tech-stack i {
   font-size: 10vw;
+  letter-spacing: 20px;
 }
 .portfolio {
   position: relative; z-index: 1250; }
