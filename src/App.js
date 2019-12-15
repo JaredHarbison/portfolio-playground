@@ -8,6 +8,14 @@ import TechStack from './components/TechStack.jsx';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 // scroll="data-spy"
 function App() {
+
+  document.body.classList.add('js-loading');
+
+  window.addEventListener("load", showPage, false);
+
+  function showPage() {
+    document.body.classList.remove('js-loading');
+  }
   return (
     <div className="App" >
       <link
